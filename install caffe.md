@@ -20,6 +20,7 @@ sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
 # (Python general)
 ```
 sudo apt-get install -y python-pip
+pip install --upgrade pip
 ```
 
 # (Python 2.7 development files)
