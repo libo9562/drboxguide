@@ -20,13 +20,18 @@ sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
 # (Python general)
 ```
 sudo apt-get install -y python-pip
-pip install --upgrade pip
+```
+
+# (Python 2.7 development files)
+```
+sudo apt-get install -y python-dev
+sudo apt-get install -y python-numpy python-scipy
 ```
 
 # (or, Python 3.5 development files)
 ```
-sudo apt-get install python3.6
-sudo pip install numpy scipy
+sudo apt-get install -y python3-dev
+sudo apt-get install -y python3-numpy python3-scipy
 ```
  
 # (OpenCV 2.4)
